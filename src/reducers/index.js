@@ -26,7 +26,7 @@ const reducer = (state = initialState, action) => {
                 car: { 
                     ...state.car,
                     features: [
-                        ...state.features,
+                        ...state.car.features,
                         feature,
                     ]
                 },
